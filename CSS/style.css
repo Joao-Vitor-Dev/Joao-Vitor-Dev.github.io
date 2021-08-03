@@ -29,7 +29,7 @@ header {
     align-items: center;
 }
 
-h1 {
+#icon {
     font-family: "Press Start 2P" , sans-serif;
     font-size: 20px;
     transition: transform 1.5s cubic-bezier(.28,.85,1,.99);
@@ -39,7 +39,7 @@ h1 {
 
 }
 
-h1:hover {
+#icon:hover {
     transform: rotate(360deg) ;
 }
 
@@ -47,7 +47,7 @@ nav{
     text-align: right;
 }
 
-a {
+.a {
     display: inline-flex;
     align-items: center;
     color: #fff;
@@ -60,11 +60,11 @@ a {
     transition: color 0.3s ;
 }
 
-a:hover {
+.a:hover {
     color: #759AAB;
 }
 
-a::before{
+.a::before{
     content: "";
     background-color: #F34213;
     height: 10px;
@@ -72,19 +72,6 @@ a::before{
     margin-right: 10px;
 }
 
-#button {
-    display: inline-block;
-    background-color: #F34213;
-    height: 60px;
-    line-height: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
-    box-shadow: 5px 5px 0px #000;
-    border-radius: 5px;
-    margin-right: 0px;
-}
-  
-.btn:hover {
-    color: #fff;
-    animation: bounce 0.3s;
-  }
+
+
+ 
